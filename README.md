@@ -19,3 +19,4 @@ umbrella frog: BiancaVanDijk - https://pixabay.com/illustrations/frog-drawing-bo
 couple rain: Horacio30 - https://pixabay.com/photos/couple-pedestrian-rain-raining-4602505/
 colorful umbrellas: KaosReaper - https://pixabay.com/photos/umbrella-colorful-umbrellas-2716551/
 umbrella selection: Johanna84 - https://pixabay.com/vectors/umbrella-umbrellas-satika-shadow-181682/
+pixel umbrellas: my wife

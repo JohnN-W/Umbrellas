@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 .header, .footer {
@@ -17,10 +18,6 @@ body {
 h1 {
     font-weight: 900;
     font-size: 48px;
-}
-
-h2 {
-    font-weight: 900;
 }
 
 h2, .quote-text {
@@ -56,6 +53,7 @@ button, .call-to-action {
 .content-two {
     display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
 }
 
 .content-three {
@@ -69,8 +67,8 @@ button, .call-to-action {
 
 .header img {
     display: flex;
-    max-height: 150px;
-    width: 300px;
+    max-height: 450px;
+    width: auto;
 }
 
 .footer {
@@ -85,10 +83,10 @@ button, .call-to-action {
 }
 
 button {
-    padding: 5px 30px 5px 30px;
+    padding: 12px 30px 12px 30px;
     color: #E5E7EB;
     font-weight: 900;
-    max-height: fit-content;
+    max-width: fit-content;
 }
 
 .content-three button {
@@ -98,7 +96,7 @@ button {
 .call-to-action {
     padding: 8px 75px 8px 75px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -159,5 +157,32 @@ button {
     padding-bottom: 50px;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
 
+.header-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-content-left h1 {
+    margin-bottom: 0px;
+}
+
+.quote-text {
+    font-weight: 300;
+}
+
+.quote-attribution {
+    text-align: right;
+}
+
+.container {
+    margin-right: 280px;
+}
 

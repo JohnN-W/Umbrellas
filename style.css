@@ -51,8 +51,6 @@ button, .call-to-action {
 
 .content-one {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .content-two {
@@ -113,12 +111,53 @@ button {
     margin-top: 5px;
 }
 
-.content-one h2 {
-    justify-content: center;
+.block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.block {
-    flex-wrap: wrap;
-    width: 100px;
-    margin: 60px;
+.box {
+    display: flex;
+    gap: 32px;
 }
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    align-content: center;
+}
+
+.nav-links a {
+    margin: 10px;
+}
+
+.content-one-header {
+    display: flex;
+    justify-content: center ;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    max-width: 138px;
+}
+
+.block img {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-one-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+
